@@ -1,0 +1,25 @@
+{
+  "name": "comp_se_200",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "c8 mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "c8": "latest",
+    "mocha": "latest"
+  },
+  "c8":{
+    "reporter": [ "text", "lcov" ],
+    "lines": 80,
+    "functions": 80,
+    "branches": 75,
+    "statements": 80
+  }
+}
